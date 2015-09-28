@@ -1,0 +1,40 @@
+{
+  "name": "daka",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/charleschaochen/daka",
+  "author": {
+    "name": "Charles Chen",
+    "email": "399931011@qq.com",
+    "url": "http://www.charlestech.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/charleschaochen/daka.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-filter": "^3.0.1",
+    "gulp-uglify": "^1.4.1",
+    "gulp-csso": "^1.0.0",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-minify-html": "^1.0.4",
+    "browserify": "^11.2.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "path": {
+    "script": "scripts/**",
+    "style": "styles/**",
+    "image": "images/**",
+    "lib": "lib",
+    "dist": "build",
+    "distScript": "scripts",
+    "distStyle": "styles",
+    "distImage": "images"
+  }
+}
